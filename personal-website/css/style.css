@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #CCFFFF;
+}
+h1 {
+  text-align: center;
+  text-decoration: italic;
+  font-size: 70px; 
+}
+
+h2, h3, h4 {
+  font-weight: normal;
+  font-style: bold;
+  text-transform: uppercase; 
+}
+p {
+
+  font-family: sans-serif;
+}
+
+li{
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: deepskyblue;
+}
