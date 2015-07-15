@@ -1,0 +1,53 @@
+h3{
+	text-align: right;
+	text-decoration: red;
+}
+
+h2,h4{
+	color: black;
+	text-decoration: none;
+}
+
+.navigation {
+	padding: 10px;
+}
+
+#containter{
+	width: 720px;
+	margin : 0 auto;
+	padding-left: 54px;
+	border-style: solid;
+	border: #dddddd;
+}
+    solid, left, 6px, border, #dddddd
+
+}
+
+.date{
+
+}
+
+.next{
+	text-align: right:
+	color: red;
+	text-decoration: bold;
+}
+
+#footer{
+	text-decoration: none;
+	a:link {
+    	color: #aa0000;
+	}
+
+	a:visited {
+	    color: #aa0000;
+	}
+
+	a:hover {
+	    color: #aa0000;
+	}
+
+	a:active {
+	    color: #aa0000;
+	}
+}
