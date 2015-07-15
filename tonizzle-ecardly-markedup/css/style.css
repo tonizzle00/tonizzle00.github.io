@@ -1,0 +1,61 @@
+#header {
+	text-align: center
+}
+
+h2 {
+	font-size: 22px;
+	text-decoration: none, bold;
+}
+
+.logo {
+	width: 20px;
+}
+
+body {
+	background-image: url("../images/background.jpg");
+	text-align: left;
+	text-decoration-color: #000000;
+}
+
+div .post{
+	background-color: white;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 15px white;
+
+}
+
+span .post-meta {
+	text-align: left;
+}
+
+#container {
+	width: 800px;
+	margin : 0 auto;
+}
+
+.headline {
+	text-decoration: none;
+	color: black;
+}
+.download {
+	color: red;
+	text-decoration: none;
+}
+
+.name {
+	color: red;
+	text-decoration: none, bold;
+}
+
+.comment {
+	color: red;
+	text-decoration: none;
+}
+
+#footer {
+	text-align: center;
+}
