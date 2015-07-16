@@ -1,53 +1,93 @@
-h3{
-	text-align: right;
-	text-decoration: red;
+@font-face {
+	font-family: Lato;
+    src: url(../fonts/Lato-Light.ttf);
+ }   
+
+body {
+	font-family: Lato, Arial;
+    border: solid 6px #dddddd; 
 }
 
-h2,h4{
-	color: black;
-	text-decoration: none;
-}
-
-.navigation {
-	padding: 10px;
-}
-
-#containter{
+#container {
 	width: 720px;
-	margin : 0 auto;
-	padding-left: 54px;
-	border-style: solid;
-	border: #dddddd;
-}
-    solid, left, 6px, border, #dddddd
-
+	padding: 54px;
 }
 
-.date{
-
+.nav {
+	padding-right: 15px;
+	display: inline;
+	text-decoration: underline;
 }
 
-.next{
-	text-align: right:
-	color: red;
-	text-decoration: bold;
+.navigation, a {
+	color: #dddddd;
 }
 
-#footer{
+.navigation, a:hover {
+	color: black;
+}
+
+h1 {
+	color: #dd0000;
+	padding: 0;
+}
+
+h2.date {
+ 	color: #cccccc;
+ }
+
+h3 {
+	color: black;
+}
+
+h4 {
+	color: #aa0000;
+	text-align: right;
+	font-family: Arial;	
+	font-weight: bolder;
+}
+
+.next, a {
 	text-decoration: none;
-	a:link {
-    	color: #aa0000;
-	}
+}
 
-	a:visited {
-	    color: #aa0000;
-	}
+.articles {
+	width: 720px;
+	margin: 50px 0;
+}
 
-	a:hover {
-	    color: #aa0000;
-	}
+img {
+	width: 720px;
+	padding: 20px 0;
+}
+.text {
+	color: #444444;
+	line-height: 1.5em;
+}
 
-	a:active {
-	    color: #aa0000;
-	}
+hr {
+	border: solid 1px #dddddd;
+}
+
+#footer p {
+	color: #bbbbbb;
+	padding: 0;
+	letter-spacing: 1px;
+	display: inline;
+}
+#footer a {
+	text-decoration: none;
+	color: #DD0000;
+}
+
+#footer a:hover {
+	color: #aa0000
+}
+
+#closing {
+	margin-top: 20px;
+}
+
+.copy {
+	color: #bbbbbb;
 }
